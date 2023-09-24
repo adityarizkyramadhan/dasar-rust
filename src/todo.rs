@@ -3,7 +3,7 @@ use chrono::Utc;
 
 #[derive(Debug)]
 pub struct Todo {
-    id: String,
+    pub id: String,
     is_done: bool,
     name: String,
     created_at: String,
